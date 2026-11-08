@@ -39,24 +39,31 @@ The dashboard helps explore questions such as:
 
 A visual landing page that provides navigation to the report's analysis
 sections.
+<img width="1160" height="647" alt="image" src="https://github.com/user-attachments/assets/91cbbdff-1974-49f6-99e3-6f24d9412d0e" />
+
 
 ### 2. Content & Popularity
 
 Explores: - Top 5 movies and TV shows based on popularity - Vote-count
 insights over time - Movies launched over time - Interactive slicers for
 filtering the analysis
+<img width="1135" height="642" alt="image" src="https://github.com/user-attachments/assets/32c6081d-678d-4b1e-8711-33121075e592" />
 
 ### 3. Ratings & Runtime
 
 Explores: - IMDb rating trends in relation to votes - Movie and TV show
 duration over time - Interactive filtering to investigate rating and
 runtime patterns
+<img width="1138" height="637" alt="image" src="https://github.com/user-attachments/assets/199df82d-2c89-40f6-b657-280b1b669cac" />
+
 
 ### 4. Age Certifications & Rating Insights
 
 Explores: - The relationship between age certification and average IMDb
 ratings - A viewer-choice leaderboard presented through a scrolling-text
 visual - Interactive slicers for focused analysis
+<img width="1132" height="645" alt="image" src="https://github.com/user-attachments/assets/31fa7e73-3358-45ae-8908-0a88842d0575" />
+
 
 ### 5. Global Top 10
 
@@ -67,6 +74,7 @@ analysis - A treemap of the Top 10 viewed Netflix shows
 The labels and measures in this page reflect the fields and data
 available in the report; they do not independently verify real-time
 worldwide Netflix rankings.
+<img width="1133" height="628" alt="image" src="https://github.com/user-attachments/assets/a2668129-03ac-4cce-8c6a-c3ce097d61df" />
 
 ------------------------------------------------------------------------
 
@@ -102,30 +110,6 @@ The report was developed around a multi-page analytical structure:
     the report.
 5.  Navigate through the five report pages and use the slicers to
     explore the visuals.
-
-## 📁 Suggested Repository Structure
-
-``` text
-Netflix-Content-Viewer-Insights/
-├── Netflix_Analysis.pbix
-├── README.md
-├── assets/
-│   └── Netflix_Dashboard.png
-└── data/
-    └── README.md
-```
-
-Add your dashboard screenshot to `assets/Netflix_Dashboard.png` to
-display it in the preview below. Include the original dataset or a
-source link in the repository if you are permitted to redistribute it.
-Otherwise, document where it can be obtained.
-
-## 🖼️ Dashboard Preview
-
-![Netflix Power BI Dashboard](assets/Netflix_Dashboard.png)
-
-> Upload a screenshot of your dashboard to the `assets` folder and name
-> it `Netflix_Dashboard.png` for this preview to render.
 
 ## 💡 Skills Demonstrated
 
