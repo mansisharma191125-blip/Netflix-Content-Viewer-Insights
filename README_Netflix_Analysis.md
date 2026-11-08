@@ -32,6 +32,41 @@ The dashboard helps explore questions such as:
 -   How do age certifications compare with average IMDb ratings?
 -   Which titles appear in the Top 10 view, and how are weekly views
     distributed by category in the loaded data?
+    
+------------------------------------------------------------------------
+
+## 📂 Data Sources
+
+This dashboard combines two data sources to provide a broader view of Netflix content and weekly global rankings.
+
+### 1. Netflix Content Dataset
+Used for content-level analysis, including:
+- Movie and TV show popularity
+- IMDb ratings and vote counts
+- Runtime and duration trends
+- Release year
+- Age certifications
+
+### 2. Netflix Global Top 10 – Weekly Data (https://www.netflix.com/tudum/top10)
+An additional web-connected data source used to bring weekly Global Top 10 information into the dashboard.
+
+Used for:
+- Weekly global views
+- Content category comparisons
+- Top 10 title analysis
+- Runtime versus weekly views
+<img width="1892" height="971" alt="image" src="https://github.com/user-attachments/assets/d7cd0540-8d0a-4dec-bac8-3fafd3028070" />
+
+
+### Data Preparation
+- Connected and imported source data using Power Query.
+- Prepared the content dataset for analysis.
+- Connected the weekly Global Top 10 data through the web source.
+- Used the resulting data in the dashboard's Global Top 10 page.
+
+**Note:** Weekly data reflects the latest successful refresh of the web connection. It is not necessarily a real-time feed.
+
+------------------------------------------------------------------------
 
 ## 🧭 Dashboard Pages
 
